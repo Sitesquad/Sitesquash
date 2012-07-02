@@ -1,7 +1,7 @@
 Sitesquash
 ==========
 
-Fedex bugfix for Magento 1.6.1.0 and 1.6.2.0
+Fedex bugfix for Magento 1.6.1.0
 
 - Allows for FedEx Account or List rate type to be set in the config.
 - Retrieves correct price for either the account or list type as specified.
