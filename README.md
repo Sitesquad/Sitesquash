@@ -1,7 +1,10 @@
 Sitesquash
 ==========
 
-Fedex bugfix for Magento 1.7.0.0
+Fedex bugfix for Magento CE 1.7.0.0 and Enterprise 1.12.0.0
+
+Admin Catalog Title
+- typo for the catalog page in the Admin
 
 - Allows for FedEx Account or List rate type to be set in the config.
 - Retrieves correct price for either the account or list type as specified.
@@ -19,4 +22,4 @@ How to use:
 Why a core patch/modification?
 While it does rub the grain of the "Magento Way(tm)" to modify core files, there is the chance some extention somewhere is doing something with these files in app/local/Mage which would make using these fixes a merge issue, and the chance of that happening is at least as good as remembering to bring a towel. So it's a direct core over-write. Yes, any upgrade will remove the fix. Just grab your towel and the fix that corresponds to your new Magento version, copy it over again, and go back to watching your sales reports.
 
-Good Luck!
+If you'd like help with these or other Magento issues get in touch with us over at www.sitesquad.net.
