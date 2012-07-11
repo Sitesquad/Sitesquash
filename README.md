@@ -5,19 +5,19 @@ Bugfixes for Magento CE 1.6.2.0 and Magento Enterprise 1.11.2.0
 Admin Catalog Title
 - typo for the catalog page in the Admin
 
-
 Store {{base_url}}
 - a revert to 1.6.0.0 (or a partial backport of 1.7.0.0 depending on you look at it) for situations where the {{base_url}} was set improperly usually with the error: "Illegal scheme supplied, only alphanumeric characters are permitted"
 
-Fedex
+Shipping - Fedex
 - Allows for FedEx Account or List rate type to be set in the config.
 - Retrieves correct price for either the account or list type as specified.
 - Falls back to receiver pricing if no other rates are available.
 - Does not return a price for a shipping method if there isn't one that matches the specified rate type.
 - Clears type-o in the system.xml
-
 - Includes a cheap hack to change the labels GROUND for business and residential because people seem to think that just 'ground' is residential.
 
+Wishlist
+- Show wishlist items info (name, etc) as is configured per the product data to the current store view
 
 
 How to use:
