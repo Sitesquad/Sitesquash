@@ -6,6 +6,7 @@ Fedex bugfix for Magento CE 1.7.0.0 and Enterprise 1.12.0.0
 Admin Catalog Title
 - typo for the catalog page in the Admin
 
+Shipping - Fedex
 - Allows for FedEx Account or List rate type to be set in the config.
 - Retrieves correct price for either the account or list type as specified.
 - Falls back to receiver pricing if no other rates are available.
@@ -13,6 +14,9 @@ Admin Catalog Title
 - Clears type-o in the system.xml
 
 - Includes a cheap hack to change the labels GROUND for business and residential because people seem to think that just 'ground' is residential.
+
+Wishlist
+- Show wishlist items info (name, etc) as is configured per the product data to the current store view
 
 How to use:
 - Get, without puns, the files for the version of Magento you are using
